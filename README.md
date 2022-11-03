@@ -96,21 +96,39 @@
 ### Лог команд
 
 $ cd C:/Lenovo/Users/LR6
+
 $ git clone https://github.com/Pyr0sss/LR6.git
+
 $ git pull
+
 $ git log
+
 $ git checkout branch1
+
 $ git checkout master
+
 $ git merge branch1
+
 $ git mergetool
+
 $ git status
+
 $ git add .
+
 $ git commit -m 'Merging'
+
 $ git branch -d branch1
+
 $ git branch
+
 $ git commit -m 'New file'
+
 $ git commit -m 'Modified file'
+
 $ git reset --hard HEAD~1
+
 $ git reset --hard HEAD~2
+
 $ git checkout -b 'Otchet'
+
 $ git log --pretty="%h %ad %ch %s"
